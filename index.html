@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>CANVAS SHEETS</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"> 
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="dist/tsout.js"></script>
+  </head>
+
+  <body onload="main();">
+    <div class="container-fluid" id="appContainer">
+      <div class="row">
+        <div class="tool-bar" id="appToolBar"></div>
+      </div>
+      <div class="row">
+        <canvas id="appCanvas"></canvas>
+        <div class="resizer column-resizer" id="columnResizer"></div>
+        <div class="resizer row-resizer" id="rowResizer"></div>
+      </div>
+    </div>
+  </body>
+
+</html>

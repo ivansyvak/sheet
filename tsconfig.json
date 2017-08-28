@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "amd",
+    "lib": [
+      "es5", "es2015", "dom"
+    ],
+    "sourceMap": true,
+    "outFile": "dist/tsout.js",
+    "watch": true,
+    "target": "es6"
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}

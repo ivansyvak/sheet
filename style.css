@@ -1,0 +1,79 @@
+.tool-bar {
+  background: #EEE;
+  font-size: 24px;
+  height: 34px;
+}
+
+.tool-bar div{
+  display: inline;
+  padding: 5px;  
+  cursor: pointer;
+}
+
+.tool-bar div:hover {
+  background: #DDD;
+}
+
+.scroller-container {
+  position: fixed;
+  padding: 2px;
+  background: #EEE;
+}
+
+.vert-sccroller-container {
+  right: 0px;  
+}
+
+.horz-scroller-container {
+  bottom: 2px;
+}
+
+.scroller {
+  background: #AAA;
+  position: relative;  
+}
+
+.scroller:hover {
+  cursor: pointer;
+  border: 1px solid #888;
+}
+
+.vert-scroller {
+  width: 8px;
+}
+
+.horz-scroller {
+  height: 8px;
+}
+
+.sheet-selection {
+  position: fixed;
+  border: solid 2px #00f;  
+  padding: 0px;    
+}
+
+.sheet-input {
+  margin: 0px;  
+  background: white;  
+}
+
+.sheet-input:focus {
+  outline: none;
+}
+
+.resizer {
+  position: fixed;
+  background: #00f;
+  display: none;
+}
+
+.row-resizer {
+  top: 0px;  
+  height: 1px;
+}
+
+.column-resizer {
+  top: 0px;
+  left: 0px;  
+  width: 1px;
+}
